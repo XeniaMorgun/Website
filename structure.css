@@ -1,0 +1,109 @@
+/*
+ * Struktur der Site www.petukhova.de
+ *
+ * (c) 2023 - 2025 Ralf Schneeweiß - www.oop-trainer.de
+ */
+
+body {
+	margin: 0px auto; 
+	max-width: 80em;
+}
+
+.PANEL
+{
+	margin-left: auto; /* Der Trick liegt hier! */
+	margin-right: auto; /* Der Trick liegt hier! */
+
+	display: flex;
+	flex-wrap: wrap; /* Aktiviert den Umbruch */
+
+	justify-content: center; /* horizontal */
+	align-items: center; /* vertikal */
+}
+
+.KUENSTLERIN
+{
+	text-align: center;
+}
+
+nav
+{
+	text-align: center;
+}
+
+h1.name
+{
+	font-size: 22pt;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.PANEL { width: 700; }
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+	.PANEL { width: 800px; }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1440px) {
+	.PANEL { width: 1000px; }
+}
+@media only screen and (min-width: 1441px) {
+	.PANEL { width: 1400px; }
+}
+
+main {
+	display: block;  /* for IE */
+}
+
+td.erste_zelle {
+	text-align: left;
+}
+
+td.zelle {
+	text-align: center;
+}
+
+td.letzte_zelle {
+	text-align: right;
+}
+
+/* Fließende Blöcke */
+
+.block_left,
+.block_right {
+	font-size:   11pt;
+	font-weight: normal;
+	text-shadow: none;
+	display:     inline;
+	position:    relative;
+}
+
+.block_left {
+	float:  left;
+	margin: 15px;
+}
+
+.block_right {
+	float:  right;
+	margin: 15px;
+}
+
+.block_left p,
+.block_right p,
+.block_left ul,
+.block_right ul,
+.block_left table td,
+.block_right table td {
+	margin: 0;
+}
+
+.block_left p,
+.block_right p,
+.block_left ul,
+.block_right ul {
+	padding-left:  10px;
+	padding-right: 10px;
+	padding-top:    5px;
+	padding-bottom: 5px;
+}

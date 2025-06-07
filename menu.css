@@ -1,0 +1,71 @@
+/*
+ */
+
+menu {
+    display: inline-block;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+menu li {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18pt;
+}
+
+menu li a {
+    text-decoration: none;
+    color: rgb(95,95,95);
+}
+
+menu li a:hover {
+    color: black;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+ul.menu li {
+  float: left;
+  text-align: right;
+  min-width: 7em;
+  line-height: 2;
+  vertical-align: bottom;
+  display: block;
+}
+
+ul.menu li a {
+  display: block;
+  text-align: right;
+  padding: 24px 16px;
+  text-decoration: none;
+
+  color: rgb(95,95,95);
+}
+
+ul.menu li :hover:not(.current) {
+  color: black;
+/*
+  background-color: rgb(164,164,164);
+  color: white;
+*/
+}
+
+p.MeinName {
+  text-align: right;
+  color: black;
+/*
+  background-color: rgb(164,164,164);
+  color: white;
+*/
+}
