@@ -1,7 +1,4 @@
 /*
- * Struktur der Site www.petukhova.de
- *
- * (c) 2023 - 2025 Ralf Schneeweiß - www.oop-trainer.de
  */
 
 body {
@@ -11,14 +8,14 @@ body {
 
 .PANEL
 {
-	margin-left: auto; /* Der Trick liegt hier! */
-	margin-right: auto; /* Der Trick liegt hier! */
+	margin-left: auto;  /* center align of */
+	margin-right: auto; /* the whole panel */
 
 	display: flex;
-	flex-wrap: wrap; /* Aktiviert den Umbruch */
+	flex-wrap: wrap; /* activates the line break */
 
 	justify-content: center; /* horizontal */
-	align-items: center; /* vertikal */
+	align-items: center; /* vertical */
 }
 
 .KUENSTLERIN

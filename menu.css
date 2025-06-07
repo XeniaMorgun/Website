@@ -55,17 +55,9 @@ ul.menu li a {
 
 ul.menu li :hover:not(.current) {
   color: black;
-/*
-  background-color: rgb(164,164,164);
-  color: white;
-*/
 }
 
 p.MeinName {
   text-align: right;
   color: black;
-/*
-  background-color: rgb(164,164,164);
-  color: white;
-*/
 }
