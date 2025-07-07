@@ -1,7 +1,15 @@
 /*
  */
 
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest'), url('./design/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
+}
+
 body {
+	font-family: Onest, Helvetica, Arial, sans-serif;
+
 	margin: 0px auto; 
 	max-width: 80em;
 }
