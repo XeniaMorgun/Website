@@ -23,6 +23,10 @@ menu li a {
     color: rgb(95,95,95);
 }
 
+menu li.X a {
+	 color: rgb(95,195,95);
+}
+
 menu li a:hover {
     color: black;
 }
