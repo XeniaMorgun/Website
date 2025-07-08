@@ -1,15 +1,8 @@
 /*
  */
 
-@font-face {
-    font-family: 'Onest';
-    src: local('Onest'), url('./design/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
-    font-display: swap;
-}
 
 body {
-	font-family: Onest, Helvetica, Arial, sans-serif;
-
 	margin: 0px auto; 
 	max-width: 80em;
 }
@@ -38,7 +31,6 @@ nav
 
 h1.name
 {
-	font-size: 22pt;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -74,9 +66,6 @@ td.letzte_zelle {
 
 .block_left,
 .block_right {
-	font-size:   11pt;
-	font-weight: normal;
-	text-shadow: none;
 	display:     inline;
 	position:    relative;
 }
