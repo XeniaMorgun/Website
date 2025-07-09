@@ -19,22 +19,16 @@ body {
 	align-items: center; /* vertical */
 }
 
-.KUENSTLERIN
-{
-	text-align: center;
+@media (min-width: 600px) {
+	.ARTIST {
+		text-align: center;
+	}
 }
-
-nav
-{
-	text-align: center;
+@media (max-width: 599px) {
+	.ARTIST {
+		text-align: right;
+	}
 }
-
-h1.name
-{
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
 
 @media only screen and (max-width: 800px) {
 	.PANEL { width: 700; }
