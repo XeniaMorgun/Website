@@ -56,36 +56,38 @@ nav menu.mainmenu li a:hover {
 
 @media (max-width: 1199px) {
 
-   label.burgerrahmen {
-        width: 70px;
-        height: 55px;
-        background-color: white;
+	label.burgerrahmen {
+		width: 70px;
+		height: 55px;
+		background-color: white;
 
-        border-radius: 0;
-        position: relative;
-        margin: 2px;
-        cursor: pointer;
-        display: block;
+		border-radius: 0;
+		position: relative;
+		margin: 2px;
+		cursor: pointer;
+		display: block;
 		border: 2px;
 		border-style: solid;
 		border-color: rgb(95,95,95);
-    }
+	}
 
-    label.burgerrahmen span.burgerbar {
+	label.burgerrahmen span.bar1,
+	label.burgerrahmen span.bar2,
+	label.burgerrahmen span.bar3 {
 		width: 60px;
-        height: 4px;
-        background-color: rgb(95,95,95);;
-        border-radius: 3px;
-        position: absolute;
-        border: none;
-    }
+		height: 4px;
+		background-color: rgb(95,95,95);
+		border-radius: 3px;
+		position: absolute;
+		border: none;
+	}
 
-    label.burgerrahmen span.bar1 { top: 10px; left: 5px; }
-    label.burgerrahmen span.bar2 { top: 25px; left: 5px; }
-    label.burgerrahmen span.bar3 { top: 40px; left: 5px; }
+	label.burgerrahmen span.bar1 { top: 10px; left: 5px; }
+	label.burgerrahmen span.bar2 { top: 25px; left: 5px; }
+	label.burgerrahmen span.bar3 { top: 40px; left: 5px; }
 
-    menu.mainmenu {
-        display: none;
+	menu.mainmenu {
+		display: none;
 	}
 
 	#click:checked~menu.mainmenu {
