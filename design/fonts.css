@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'Onest';
-    src: local('Onest'), url('./design/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
-    font-display: swap;
+	font-family: 'Onest';
+	src: local('Onest'), url('./design/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
+	font-display: swap;
 }
 
 body {
@@ -13,23 +13,23 @@ body {
 }
 
 menu {
-    font-weight: 100;
+	font-weight: 100;
 }
 
 main {
-    font-weight: 300;
-    line-height: 140%;
+	font-weight: 300;
+	line-height: 140%;
 }
 
 @media (min-width: 600px) {
-    h1.name {
-        font-size: 22pt;
-    }
+	h1.name {
+		font-size: 22pt;
+	}
 }
 @media (max-width: 599px)   {
-        h1.name {
-        font-size: 16pt;
-    }
+		h1.name {
+		font-size: 16pt;
+	}
 }
 
 .block_left,
@@ -38,5 +38,3 @@ main {
 	font-weight: normal;
 	text-shadow: none;
 }
-
-
