@@ -26,8 +26,8 @@ main {
 		font-size: 22pt;
 	}
 }
-@media (max-width: 599px)   {
-		h1.name {
+@media (max-width: 599px) {
+	h1.name {
 		font-size: 16pt;
 	}
 }

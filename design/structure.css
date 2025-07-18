@@ -19,25 +19,28 @@ body {
 	align-items: center; /* vertical */
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 	.ARTIST {
 		text-align: center;
 	}
 }
-@media (max-width: 599px) {
+@media only screen and (max-width: 599px) {
 	.ARTIST {
 		text-align: right;
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 799px) {
 	.PANEL { width: 700; }
 }
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
 	.PANEL { width: 800px; }
 }
-@media only screen and (min-width: 1201px){
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
 	.PANEL { width: 1200px; }
+}
+@media only screen and (min-width: 1400px) {
+	.PANEL { width: 1400px; }
 }
 
 main {
