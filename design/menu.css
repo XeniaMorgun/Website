@@ -15,12 +15,12 @@ nav menu.mainmenu li a {
 }
 
 nav menu.mainmenu li.X a {
-	color: rgb(95,195,95);
+	color: crimson;
 }
 
 nav menu.mainmenu li a:hover {
 	color: black;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 @media (min-width: 1400px) {

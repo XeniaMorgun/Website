@@ -19,6 +19,26 @@ body {
 	align-items: center; /* vertical */
 }
 
+.NONFLEXPANEL {
+	margin-left: auto;  /* center align of */
+	margin-right: auto; /* the whole panel */
+	text-align: center;
+	justify-content: center; /* horizontal */
+}
+
+.ARTIST
+{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	font-size: 20pt;
+	line-height: 55px; /* Text vertikal zentrieren */
+}
+
 @media only screen and (min-width: 600px) {
 	.ARTIST {
 		text-align: center;
