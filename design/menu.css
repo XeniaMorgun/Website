@@ -1,31 +1,40 @@
 /*
+ * Menu for the site xeniamorgun.eu
+ *
+ * Made by Ralf Schneeweiss
+ * www.oop-trainer.com
+ *
  */
 
 #click {
 	display: none;
 }
 
-menu.mainmenu {
+menu {
 	list-style: none;
+	text-align: center;
 }
 
-nav menu.mainmenu li a {
+menu li a {
 	text-decoration: none;
-	color: rgb(95,95,95);
 }
-
-nav menu.mainmenu li.X a {
+nav menu li.X a {
 	color: crimson;
 }
 
-nav menu.mainmenu li a:hover {
+nav menu li a:hover {
 	color: black;
 	text-decoration: none;
 }
 
 @media (min-width: 1400px) {
 
-	.burgerrahmen, .burgerlinie {
+	.ARTIST {
+		left: 0;
+		width: 100%;
+	}
+
+	.burgerrahmen {
 		display: none;
 	}
 
@@ -39,7 +48,7 @@ nav menu.mainmenu li a:hover {
 		margin: 0 0 24px 0;
 	}
 
-	nav menu.mainmenu {
+	nav menu {
 		list-style: none;
 		margin: 0 auto;
 		text-align: center;
@@ -47,7 +56,7 @@ nav menu.mainmenu li a:hover {
 		justify-content: space-between; /* distribute elements equally */
 	}
 
-	nav menu.mainmenu li {
+	nav menu li {
 		display: inline;
 		padding: 0.5em 1em 0.5em 1em;
 	}
@@ -55,7 +64,12 @@ nav menu.mainmenu li a:hover {
 } /* end media with min 1400 pixel width */
 @media (min-width: 1200px) and (max-width: 1399px) {
 
-	.burgerrahmen, .burgerlinie {
+	.ARTIST {
+		left: 0;
+		width: 100%;
+	}
+
+	.burgerrahmen {
 		display: none;
 	}
 
@@ -69,7 +83,7 @@ nav menu.mainmenu li a:hover {
 		margin: 0 0 24px 0;
 	}
 
-	nav menu.mainmenu {
+	nav menu {
 		list-style: none;
 		margin: 0 auto;
 		text-align: center;
@@ -77,7 +91,7 @@ nav menu.mainmenu li a:hover {
 		justify-content: space-between; /* distribute elements equally */
 	}
 
-	nav menu.mainmenu li {
+	nav menu li {
 		display: inline;
 		padding: 0.5em 1em 0.5em 1em;
 	}
@@ -85,24 +99,31 @@ nav menu.mainmenu li a:hover {
 } /* end media with min 1200 pixel width */
 @media (max-width: 1199px) {
 
+	.ARTIST {
+		left: 74px;
+		width: calc(100% - 74px); /* Rest ausfüllen */
+	}
+
 	label.burgerrahmen {
-		width: 70px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 74px;
 		height: 55px;
 		background-color: white;
 
 		border-radius: 0;
-		position: relative;
-		margin: 2px;
+		margin: 0;
 		cursor: pointer;
 		display: block;
-		border: 2px;
+		border: 0;
 		border-style: solid;
 		border-color: rgb(95,95,95);
 	}
 
-	label.burgerrahmen span.bar1,
-	label.burgerrahmen span.bar2,
-	label.burgerrahmen span.bar3 {
+	label.burgerrahmen span.burgerbar1,
+	label.burgerrahmen span.burgerbar2,
+	label.burgerrahmen span.burgerbar3 {
 		width: 60px;
 		height: 4px;
 		background-color: rgb(95,95,95);
@@ -111,35 +132,63 @@ nav menu.mainmenu li a:hover {
 		border: none;
 	}
 
-	label.burgerrahmen span.bar1 { top: 10px; left: 5px; }
-	label.burgerrahmen span.bar2 { top: 25px; left: 5px; }
-	label.burgerrahmen span.bar3 { top: 40px; left: 5px; }
+	label.burgerrahmen span.burgerbar1 { top: 10px; left: 5px; }
+	label.burgerrahmen span.burgerbar2 { top: 25px; left: 5px; }
+	label.burgerrahmen span.burgerbar3 { top: 40px; left: 5px; }
 
-	menu.mainmenu {
+	menu {
 		display: none;
 	}
 
-	#click:checked~menu.mainmenu {
-		display: block;
-		/*position: fixed;*/
-		line-height: 180%;
-		padding-inline-start: 0;
+	menu {
+		padding: 5px;
+		margin: 0;
+		column-count: 2;
 	}
 
-	#click:checked~label .bar1 {
+	#click:checked~menu {
+		display: block;
+		position: fixed;
+		top: 55px;
+		left: 0;
+		width: 100%;
+	}
+
+	#click:checked~label .burgerbar1 {
 		transform: rotate(-45deg);
 		top: 25px;  left: 5px; 
 		transition: transform 0.5s;
 	}
 
-	#click:checked~label .bar2 {
-		opacity: 0;
+	#click:checked~label .burgerbar2 {
+		display: none;
 	}
 
-	#click:checked~label .bar3 {
+	#click:checked~label .burgerbar3 {
 		transform: rotate(45deg);
 		top: 25px;  left: 5px; 
 		transition: transform 0.5s;
+	}
+
+	/* colors */
+
+	label.burgerrahmen {
+		background-color: white;
+	}
+	label.burgerrahmen span.burgerbar1,
+	label.burgerrahmen span.burgerbar2,
+	label.burgerrahmen span.burgerbar3 {
+		background-color: rgb(96,96,96);
+	}
+	menu {
+		background-color: rgb(96,96,96);
+		color: white;
+	}
+	menu a {
+		color: white;
+	}
+	menu li a:hover {
+		color: lightgray;
 	}
 
 } /* end media with max 1199 pixel width */
