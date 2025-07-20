@@ -1,0 +1,64 @@
+/*
+ * Colors for the site xeniamorgun.eu
+ *
+ * Made by Ralf Schneeweiss
+ * www.oop-trainer.com
+ *
+ */
+
+nav menu li.X a {
+	color: crimson;
+}
+
+nav menu li a:hover {
+	color: black;
+}
+
+
+@media (min-width: 1400px) {
+
+
+} /* end media with min 1400 pixel width */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+} /* end media with min 1200 pixel width */
+@media (max-width: 1199px) {
+
+	label.burgerrahmen {
+		background-color: white;
+		border-color: rgb(95,95,95);
+	}
+
+	label.burgerrahmen span.burgerbar1,
+	label.burgerrahmen span.burgerbar2,
+	label.burgerrahmen span.burgerbar3 {
+		background-color: rgb(95,95,95);
+	}
+
+	label.burgerrahmen {
+		background-color: white;
+	}
+
+	label.burgerrahmen span.burgerbar1,
+	label.burgerrahmen span.burgerbar2,
+	label.burgerrahmen span.burgerbar3 {
+		background-color: rgb(96,96,96);
+	}
+
+	menu {
+		background-color: rgb(177,177,201);
+		color: white;
+		line-height: 280%;
+	}
+
+	menu a {
+		color: white;
+	}
+
+	menu li a:hover {
+		color: lightgray;
+	}
+
+} /* end media with max 1199 pixel width */
+
