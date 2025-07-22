@@ -6,6 +6,10 @@
  *
  */
 
+.ARTIST {
+	background-color: white;
+}
+
 nav menu li.X a {
 	color: crimson;
 }

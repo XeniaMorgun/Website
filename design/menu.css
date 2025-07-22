@@ -101,7 +101,7 @@ nav menu li a:hover {
 	}
 
 	label.burgerrahmen {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 74px;
