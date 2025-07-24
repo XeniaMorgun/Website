@@ -51,15 +51,19 @@ body {
 }
 
 @media only screen and (max-width: 799px) {
+	.NONFLEXPANEL,
 	.PANEL { width: 700; }
 }
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
+	.NONFLEXPANEL,
 	.PANEL { width: 800px; }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	.NONFLEXPANEL,
 	.PANEL { width: 1200px; }
 }
 @media only screen and (min-width: 1400px) {
+	.NONFLEXPANEL,
 	.PANEL { width: 1400px; }
 }
 
