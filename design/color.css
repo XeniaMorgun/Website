@@ -18,6 +18,16 @@ nav menu li a:hover {
 	color: black;
 }
 
+footer .NONFLEXPANEL {
+	background-color: grey;
+	color: white;
+}
+
+footer .NONFLEXPANEL .oop-trainer,
+footer .NONFLEXPANEL .oop-trainer a {
+	color: whitesmoke;
+}
+
 
 @media (min-width: 1400px) {
 

@@ -26,6 +26,10 @@ main {
 	line-height: 140%;
 }
 
+footer .NONFLEXPANEL .oop-trainer {
+	font-size: 6pt;
+}
+
 @media (min-width: 600px) {
 	h1.name {
 		font-size: 22pt;
