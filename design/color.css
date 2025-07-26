@@ -22,13 +22,13 @@ footer {
 	background-color: grey;
 }
 
-footer .NONFLEXPANEL {
+footer .PANEL {
 	color: white;
 	background-color: grey;
 }
 
-footer .NONFLEXPANEL .oop-trainer,
-footer .NONFLEXPANEL .oop-trainer a {
+footer .PANEL .oop-trainer,
+footer .PANEL .oop-trainer a {
 	color: whitesmoke;
 }
 

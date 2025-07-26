@@ -13,7 +13,7 @@ body {
 }
 
 /* Neuer Wrapper für den zentralen Inhalt */
-.page-wrapper {
+.width-delimiter {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -27,7 +27,7 @@ main {
 	display: block;  /* for IE */
 }
 
-.PANEL {
+.FLEXBOXPANEL {
 	margin-left: auto;  /* center align of */
 	margin-right: auto; /* the whole panel */
 
@@ -38,7 +38,7 @@ main {
 	align-items: center; /* vertical */
 }
 
-.NONFLEXPANEL {
+.PANEL {
 	margin-left: auto;  /* center align of */
 	margin-right: auto; /* the whole panel */
 	text-align: center;
@@ -62,7 +62,7 @@ footer {
 	width: 100%;
 }
 
-footer .NONFLEXPANEL {
+footer .PANEL {
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-left: 0;
@@ -86,40 +86,40 @@ h1 {
 }
 
 @media (max-width: 799px) {
-	.page-wrapper {
+	.width-delimiter {
 		max-width: 700px;
 		width: 100%; /* scaling on smaller screens */
 	}
 	nav,
-	.NONFLEXPANEL,
-	.PANEL
+	.PANEL,
+	.FLEXBOXPANEL
 	{ width: 100%; }
 }
 @media (min-width: 800px) and (max-width: 1199px) {
-	.page-wrapper {
+	.width-delimiter {
 		max-width: 800px;
 	}
 	nav,
-	.NONFLEXPANEL,
-	.PANEL
+	.PANEL,
+	.FLEXBOXPANEL
 	{ width: 100%; }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-	.page-wrapper {
+	.width-delimiter {
 		max-width: 1200px;
 	}
 	nav,
-	.NONFLEXPANEL,
-	.PANEL
+	.PANEL,
+	.FLEXBOXPANEL
 	{ width: 100%; }
 }
 @media (min-width: 1400px) {
-	.page-wrapper {
+	.width-delimiter {
 		max-width: 1400px;
 	}
 	nav,
-	.NONFLEXPANEL,
-	.PANEL
+	.PANEL,
+	.FLEXBOXPANEL
 	{ width: 100%; }
 }
 
