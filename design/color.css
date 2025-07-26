@@ -18,9 +18,13 @@ nav menu li a:hover {
 	color: black;
 }
 
-footer .NONFLEXPANEL {
+footer {
 	background-color: grey;
+}
+
+footer .NONFLEXPANEL {
 	color: white;
+	background-color: grey;
 }
 
 footer .NONFLEXPANEL .oop-trainer,
