@@ -9,7 +9,7 @@
 body {
 	margin: 0;
 	padding-top: 55px; /* height of .ARTIST */
-	padding-bottom: 90px; /* height of footers */
+	padding-bottom: 100px; /* height of footers */
 }
 
 /* Neuer Wrapper für den zentralen Inhalt */
@@ -88,7 +88,7 @@ h1 {
 @media (max-width: 799px) {
 	.width-delimiter {
 		max-width: 700px;
-		width: 100%; /* scaling on smaller screens */
+		width: 98%; /* scaling on smaller screens */
 	}
 	nav,
 	.PANEL,
