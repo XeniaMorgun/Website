@@ -60,3 +60,12 @@
 	}
 }
 
+
+img.ENTRYPICTURE {
+	width: 600px;
+}
+@media (max-width: 599px) {
+	img.ENTRYPICTURE {
+		width: 300px;
+	}
+}
