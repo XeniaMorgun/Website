@@ -26,12 +26,12 @@ main {
 	line-height: 140%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	h1.name {
 		font-size: 22pt;
 	}
 }
-@media (max-width: 599px) {
+@media (max-width: 699px) {
 	h1.name {
 		font-size: 16pt;
 	}
