@@ -31,9 +31,14 @@ main {
 		font-size: 22pt;
 	}
 }
-@media (max-width: 699px) {
+@media (min-width: 530px) and (max-width: 699px) {
 	h1.name {
 		font-size: 16pt;
+	}
+}
+@media (max-width: 529px) {
+	h1.name {
+		font-size: 10pt;
 	}
 }
 

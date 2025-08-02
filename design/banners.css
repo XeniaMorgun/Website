@@ -6,7 +6,7 @@
  *
  */
 
-.BANNER1, .BANNER2, .BANNER3 {
+.BANNER1, .BANNER2, .BANNER3, .BANNER4 {
 	background-position: center top;
 	background-repeat: no-repeat;
 	margin-left: auto;  /* center align of */
@@ -15,48 +15,60 @@
 }
 
 @media (min-width: 1400px) {
-	.BANNER1, .BANNER2, .BANNER3 {
+	.BANNER1, .BANNER2, .BANNER3, .BANNER4 {
 		width: 1400px;
 		height: 200px;
 	}
 	.BANNER1 {
-		background-image: url('./x1400/banner1.png');
+		background-image: url('./x1400/banner_florile.png');
 	}
 	.BANNER2 {
-		background-image: url('./x1400/banner2.png');
+		background-image: url('./x1400/banner_broastele.png');
 	}
 	.BANNER3 {
-		background-image: url('./x1400/banner3.png');
+		background-image: url('./x1400/banner_albinele.png');
+	}
+	.BANNER4 {
+		background-image: url('./x1400/banner_pestele.png');
 	}
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-	.BANNER1, .BANNER2, .BANNER3 {
+	.BANNER1, .BANNER2, .BANNER3, .BANNER4 {
 		width: 1200px;
 		height: 200px;
 	}
 	.BANNER1 {
-		background-image: url('./x1200/banner1.png');
+		background-image: url('./x1200/banner_florile.png');
 	}
 	.BANNER2 {
-		background-image: url('./x1200/banner2.png');
+		background-image: url('./x1200/banner_broastele.png');
 	}
 	.BANNER3 {
-		background-image: url('./x1200/banner2.png');
+		background-image: url('./x1200/banner_albinele.png');
+	}
+	.BANNER4 {
+		background-image: url('./x1200/banner_pestele.png');
 	}
 }
 @media (max-width: 1199px) {
-	.BANNER1, .BANNER2, .BANNER3 {
+	.BANNER1, .BANNER2, .BANNER3, .BANNER4 {
 		width: 300px;
 		height: 150px;
 	}
 	.BANNER1 {
-		background-image: url('./x300/banner1.png');
+		background-image: url('./x300/banner_florile.jpg');
+		border-radius: 50% / 50%;
 	}
 	.BANNER2 {
-		background-image: url('./x300/banner_proposal2.jpg');
+		background-image: url('./x300/banner_broastele.png');
+		border-radius: 50% / 50%;
 	}
 	.BANNER3 {
-		background-image: url('./x300/banner_proposal3.jpg');
+		background-image: url('./x300/banner_albinele.png');
+	}
+	.BANNER4 {
+		background-image: url('./x300/banner_pestele.png');
+		border-radius: 50% / 50%;
 	}
 }
 
