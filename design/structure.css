@@ -12,7 +12,7 @@ body {
 	padding-bottom: 100px; /* height of footers */
 }
 
-/* Neuer Wrapper für den zentralen Inhalt */
+/* delimiting wrapper for the whole content */
 .width-delimiter {
 	margin-left: auto;
 	margin-right: auto;
