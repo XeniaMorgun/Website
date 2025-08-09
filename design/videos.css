@@ -1,0 +1,22 @@
+/*
+ * Video boxes on the site xeniamorgun.eu
+ *
+ * Made by Ralf Schneeweiss
+ * www.oop-trainer.com
+ *
+ */
+
+video.BOX {
+	padding-bottom: 20px;
+}
+
+@media (max-width: 599px) {
+	video.BOX {
+		width: 300px;
+	}
+}
+@media (min-width: 600px) {
+	video.BOX {
+		width: 800px;
+	}
+}
