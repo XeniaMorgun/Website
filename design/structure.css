@@ -12,12 +12,6 @@ body {
 	padding-bottom: 100px; /* height of footers */
 }
 
-/* delimiting wrapper for the whole content */
-.width-delimiter {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 nav {
 	margin: 0 auto;
 	text-align: center;
@@ -83,6 +77,12 @@ h1 {
 	.ARTIST {
 		text-align: right;
 	}
+}
+
+/* delimiting wrapper for the whole content */
+.width-delimiter {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (max-width: 799px) {
