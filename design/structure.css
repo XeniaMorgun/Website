@@ -21,10 +21,11 @@ main {
 	display: block;  /* for IE */
 }
 
-.FLEXBOXPANEL {
-	margin-left: auto;  /* center align of */
-	margin-right: auto; /* the whole panel */
+.PANEL, .FLEXBOXPANEL {
+	width: 100%;
+}
 
+.FLEXBOXPANEL {
 	display: flex;
 	flex-wrap: wrap; /* activates the line break */
 
@@ -33,10 +34,7 @@ main {
 }
 
 .PANEL {
-	margin-left: auto;  /* center align of */
-	margin-right: auto; /* the whole panel */
-	text-align: center;
-	justify-content: center; /* horizontal */
+	width: 100%;
 }
 
 .ARTIST {
