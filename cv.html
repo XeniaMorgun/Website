@@ -36,7 +36,8 @@
 			font-display: swap;
 		}
 		body {
-			font-family: Onest, Helvetica, Arial, sans-serif; background-image: linear-gradient(white, rgb(235,235,235));
+			font-family: Onest, Helvetica, Arial, sans-serif;
+			background-image: linear-gradient(white, rgb(235,235,235));
 		}
 		header {
 			margin-top: 3em;
@@ -59,6 +60,10 @@
 		table.bar {
 			height: 4px;
 			border-collapse: collapse;
+		}
+		table tr.HEADER {
+			background-color: rgb(163,215,215);
+			color: white;
 		}
 		table td.COL1 {
 			width: 230px;
@@ -104,11 +109,11 @@
 
 	<main>
 		<table style="display: block;
-					margin-left: auto;
-					margin-right: auto;
-					width: 680px;
-					border-collapse: collapse;">
-			<tr style="background-color: rgb(163,215,215);">
+		              margin-left: auto;
+		              margin-right: auto;
+		              width: 680px;
+		              border-collapse: collapse;">
+			<tr class="HEADER">
 				<td style="width: 230px; padding: 20px; vertical-align: top;">
 					<img src="./images/portrait1_xenia.png" alt="" draggable="false" style="width: 150px;
 					                                                                        height: 150px;
@@ -118,8 +123,8 @@
 					                                                                        object-fit: cover;">
 				</td>
 				<td style="width: 450px; padding-left: 1em;">
-					<h1 style="color: white;">XENIA MORGUN</h1>
-					<ul style="color: white; list-style-type: none; padding-left: 0; line-height: 160%;">
+					<h1>XENIA MORGUN</h1>
+					<ul style="list-style-type: none; padding-left: 0; line-height: 160%;">
 						<li>morgunxenia@gmail.com</li>
 						<li>0498379295</li>
 						<li>Liège, Belgium</li>
