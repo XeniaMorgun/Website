@@ -33,10 +33,6 @@ main {
 	align-items: center; /* vertical */
 }
 
-.PANEL {
-	width: 100%;
-}
-
 .ARTIST {
 	padding: 0;
 	margin: 0;
