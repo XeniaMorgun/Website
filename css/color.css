@@ -6,8 +6,26 @@
  * (c) 2025
  */
 
+:root {
+	--bluish-grey: rgb(177,177,201);
+}
+
+:root {
+	--burger-menu-background-color: var(--bluish-grey);
+	--burger-menu-text-color: white;
+	--burger-menu-hover-color: lightgray;
+
+	--artist-background-color: white;
+	--artist-text-color: black;
+}
+
+body {
+	background: rgb(255,255,255);
+}
+
 .ARTIST {
-	background-color: white;
+	background-color: var(--artist-background-color);
+	color: var(--artist-text-color);
 }
 
 nav menu li.X a {
@@ -60,17 +78,17 @@ footer .PANEL .oop-trainer a {
 	}
 
 	menu {
-		background-color: rgb(177,177,201);
-		color: white;
+		background-color: var(--burger-menu-background-color);
+		color: var(--burger-menu-text-color);
 		line-height: 280%;
 	}
 
 	menu a {
-		color: white;
+		color: var(--burger-menu-text-color);
 	}
 
 	menu li a:hover {
-		color: lightgray;
+		color: var(--burger-menu-hover-color);
 	}
 
 } /* end media with max 1199 pixel width */
