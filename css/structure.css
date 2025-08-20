@@ -39,7 +39,6 @@ main {
 	position: fixed;
 	top: 0;
 	height: 55px;
-	font-size: 20pt;
 	line-height: 55px; /* center text vertically */
 }
 
