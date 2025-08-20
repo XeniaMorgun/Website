@@ -1,7 +1,7 @@
 
 User-agent: *
-Disallow: /design/
-Disallow: /images/
-Disallow: /favicon/
+Disallow: css/
+Disallow: images/
+Disallow: favicon/
 
 Sitemap: https://www.xeniamorgun.eu/sitemap.xml
