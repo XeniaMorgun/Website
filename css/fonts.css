@@ -17,6 +17,10 @@ body {
 	font-family: Onest, Avenir, Helvetica, Arial, sans-serif;
 }
 
+.ARTIST h1 {
+	font-weight: 300;
+}
+
 menu {
 	font-weight: 100;
 }
