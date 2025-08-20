@@ -30,6 +30,12 @@
 	<meta property="og:image:height" content="630">
 
 	<style>
+		:root {
+			--scheme-color1: rgb(163,215,215);
+			--scheme-color2: rgb(14, 14, 34);
+			--scheme-color3: white;
+			--scheme-color4: rgb(235,235,235);
+		}
 		@font-face {
 			font-family: 'Onest';
 			src: local('Onest'), url('./design/fonts/Onest/Onest-VariableFont_wght.ttf') format('truetype');
@@ -37,7 +43,7 @@
 		}
 		body {
 			font-family: Onest, Helvetica, Arial, sans-serif;
-			background-image: linear-gradient(white, rgb(235,235,235));
+			background-image: linear-gradient(var(--scheme-color3), var(--scheme-color4));
 		}
 		header {
 			margin-top: 3em;
@@ -55,22 +61,22 @@
 			font-size: 12pt;
 		}
 		hr.bar {
-			border: 2px solid rgb(163,215,215);
+			border: 2px solid var(--scheme-color1);
 		}
 		table.bar {
 			height: 4px;
 			border-collapse: collapse;
 		}
 		table tr.HEADER {
-			background-color: rgb(163,215,215);
-			color: white;
+			background-color: var(--scheme-color1);
+			color: var(--scheme-color3);
 		}
 		table td.COL1 {
 			width: 230px;
 			padding: 20px;
 			vertical-align: top;
-			color: rgb(163,215,215);
-			background-color: rgb(14, 14, 34);
+			color: var(--scheme-color1);
+			background-color: var(--scheme-color2);
 		}
 		table td.COL1 ul.LIST {
 			list-style-type: square;
@@ -86,20 +92,20 @@
 			vertical-align: top;
 			padding-left: 1em;
 			padding-right: 1em;
-			background-color: white;
+			background-color: var(--scheme-color3);
 		}
 		table td.COL2 h2 span {
-			background-color: rgb(163,215,215);
-			color: white;
+			background-color: var(--scheme-color1);
+			color: var(--scheme-color3);
 		}
 		table td.COL2 p {
-			color: rgb(14, 14, 34);
+			color: var(--scheme-color2);
 		}
 		table.bar td.empty {
-			background-color: white;
+			background-color: var(--scheme-color3);
 		}
 		table.bar td.full {
-			background-color: rgb(163,215,215);
+			background-color: var(--scheme-color1);
 		}
 	</style>
 </head>
@@ -118,7 +124,7 @@
 					<img src="./images/portrait1_xenia.png" alt="" draggable="false" style="width: 150px;
 					                                                                        height: 150px;
 					                                                                        border-radius: 50%;
-					                                                                        border: 3px solid white;
+					                                                                        border: 3px solid var(--scheme-color3);
 					                                                                        display: block;
 					                                                                        object-fit: cover;">
 				</td>
@@ -129,7 +135,7 @@
 						<li>0498379295</li>
 						<li>Liège, Belgium</li>
 						<li>* April 19, 1992 in Moldova</li>
-						<li><a href="./index.html" style="text-decoration: none; color: rgb(14, 14, 34);">www.xeniamorgun.eu</a></li>
+						<li><a href="./index.html" style="text-decoration: none; color: var(--scheme-color2);">www.xeniamorgun.eu</a></li>
 					</ul>
 				</td>
 			</tr>
